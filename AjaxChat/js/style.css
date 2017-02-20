@@ -1,0 +1,214 @@
+body 
+{
+    background-color:#696969;
+    /*background-image: url('../images/SC.png') !Important;*/
+    background-repeat:no-repeat !Important;
+    background-position:50% 50% !Important;
+    background-attachment:fixed !Important;
+    height:100% !Important;
+    width:100% !Important;
+    
+    color:#333333;font-size:12px;line-height:18px;margin:20px;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;}a{ color:#377605; font-size:14px;
+                   
+}
+a:hover
+{ 
+    color:#FF7200; font-size:14px;
+}
+   
+b,strong
+{
+    font-weight:bold;
+    color:#000;
+    }
+    #header 
+    {
+        border-bottom:1px dotted #000000
+        ;margin:0 0 20px;padding:20px 0;
+}
+#header h1 
+{
+    font-size:36px;
+    margin:0;
+    }
+    #header h4 
+    {
+        font-weight:normal;
+        margin:7px 0 0;
+        }
+#header h4 a 
+{
+    text-decoration:none;
+    }
+    h1, h2, h3, h4, h5, h6 
+    {
+        font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+font-weight:normal;
+}
+#alert-Box
+ {  
+     padding-bottom: 24px; 
+     cursor:move; 
+     background: url('../images/bg-box-bottom.png') bottom left no-repeat !important;
+  background: url('../images/bg-box-bottom.gif') bottom left no-repeat;
+}
+#alert-InBox 
+{  
+    padding-top: 15px; 
+     background: url('../images/bg-box-top.png') top left no-repeat !important;	
+  background: url('../images/bg-box-top.gif') top left no-repeat;	
+}
+#alert-BoxContent
+ {  background: url('../images/bg-box-body.png') top left repeat-y !important;
+  background: url('../images/bg-box-body.gif') top left repeat-y;
+  padding: 0px 20px;
+  }
+  #alert-BoxContenedor
+   {  
+       padding: 0px 0px 5px 55px;
+         text-align: left;  font-family:Verdana; 
+          font-size:12px;  color:#000;
+}
+#alert-BoxContenedor h1,#alert-BoxContenedor h2,#alert-BoxContenedor h3,#alert-BoxContenedor b,#alert-BoxContenedor strong
+{
+  text-align: left;
+    font-family:Verdana;  
+    font-size:12px; 
+     color:#000;  
+     font-weight:bold;  margin:0px;
+       padding:0px;
+       }
+#alert-Buttons
+{  
+    text-align:right;
+    }
+    #alert-Buttons input 
+    {  
+        margin: 10px 10px;
+        }
+#alert-BoxContenedor #BoxPromptInput
+{ 
+     margin-top:5px;
+     }
+     #alert-Box .BoxAlert
+      { 
+           background: url('../images/dialog-warning.png') top left no-repeat;
+}
+#alert-Box .BoxConfirm 
+{ 
+     background: url('../images/delete.gif') top left no-repeat;
+}
+#alert-Box .BoxPrompt
+ { 
+      background: url('../images/dialog-help.png') top left no-repeat;
+}
+#alert-Box .BoxInfo 
+{  background: url('../images/info.gif') top left no-repeat;
+}
+#alert-Box .BoxError
+ {  background: url('../images/dialog-error.png') top left no-repeat;
+    }
+    
+    
+.UserNameDisplayField
+{
+     border-bottom-width:0px;
+     border-left-width:0px;
+     border-right-width:0px;
+     border-top-width:0px;
+     font-weight :bold;
+     font-size:large;
+     color:Blue !important;
+     background-color:Transparent;
+     text-transform:capitalize;
+}
+    
+
+/* -------------------- */
+/* Button CLASSES		*/
+/* -------------------- */    
+a.button{
+	background:url(../images/button.gif) no-repeat;
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:40px;
+	line-height:29px;
+	margin-bottom:14px;
+	text-decoration:none;
+	width:200px;
+	margin-left:5px;
+	text-align:center;
+}
+a:hover.button{
+	color:#0066CC;
+	background:url(../images/button_hover.png) no-repeat;
+}
+
+	.Login{
+		background:url(../images/add.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+		
+	}
+	.Logout{
+		background:url(../images/info.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.SendMessage{
+		background:url(../images/user.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.RegisterUser{
+		background:url(../images/alert.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.MessageHistory{
+		background:url(../images/msg.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+	.OnlineUsers{
+		background:url(../images/user.gif) no-repeat 10px 8px;
+		text-indent:30px;
+		display:block;
+	}
+
+#ConversationMessages
+{
+    width:100%;
+}
+
+#ConversationMessages tr > td
+{
+    vertical-align:text-top;
+    border-bottom-color : Gray;
+    border-bottom-style:dotted;
+    border-bottom-width: 0.5px;
+}
+
+.tooltip {
+	display:none;
+	background:transparent url(../images/black_arrow.png);
+	font-size:15px;
+	font-weight:bold;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+}
+.tooltip.bottom {
+	background:url(../images/black_arrow_bottom.png);
+	padding-top:40px;
+	height:55px;
+}
+ 
+.tooltip.bottom {
+	background:url(../images/black_arrow_bottom.png);
+}

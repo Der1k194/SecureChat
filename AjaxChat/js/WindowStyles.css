@@ -1,0 +1,63 @@
+﻿
+.CoolTheme .WindowTitle 
+{ 
+  background: #696969 url(../images/sprite.gif) repeat-x 0px -82px; 
+  color: #528c00;
+  padding: 7px 22px 5px 5px;
+  font-family:"sans serif",verdana,tahoma,helvetica;
+  font-weight: bold;
+  cursor: move;
+}
+
+.CoolTheme div.WindowBody  
+{
+  background: url(../images/bc.gif) repeat-x center bottom;
+  padding: 0px !important;
+  height: 100% !important;
+  padding-bottom:10px !important;
+  overflow: hidden;
+}
+
+.CoolTheme div.WindowBorderLeft  
+{
+    background: url(../images/bl.gif) no-repeat left bottom; 
+    padding-left: 7px;
+
+    height: 100% !important;
+}
+
+.CoolTheme  div.WindowBorderRight  
+{
+    background: url(../images/br.gif) no-repeat right bottom; 
+    padding-right: 7px;
+
+    height: 100% !important;
+}
+
+.CoolTheme div.WindowTitleBorderLeft  
+{
+    background:  url(../images/sprite.gif) no-repeat 0px -41px; 
+    padding-left: 3px;
+}
+
+.CoolTheme  div.WindowTitleBorderRight  
+{
+    background: url(../images/sprite.gif) no-repeat right 0px; 
+    padding-right: 3px;
+}
+.CoolTheme .TitleCloseButton  
+{
+  position: absolute;
+  right: 7px;
+  top: 4px;
+  padding: 0 0 0 19px;
+  height: 19px;
+  width: 0px;
+  background: url(../images/close.gif) no-repeat top left;
+  overflow: hidden;
+}
+.CoolTheme .TitleCloseButton:hover  
+{
+   background-position: bottom left;
+   outline: none;
+}
