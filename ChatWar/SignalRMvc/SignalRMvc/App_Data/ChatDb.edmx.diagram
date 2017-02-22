@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d309febe3b9b4158b79cb3d5759034b7" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineChatModel.MeetingRoom" Width="1.5" PointX="3.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineChatModel.MeetingRoomsUsers" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineChatModel.Messages" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineChatModel.sysdiagrams" Width="1.5" PointX="8.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineChatModel.Users" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineChatModel.UserType" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="OnlineChatModel.FK_MeetingRoomsUsers_MeetingRoom" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineChatModel.FK_Messages_MeetingRoom" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineChatModel.FK_MeetingRoomsUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineChatModel.FK_Messages_Messages" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineChatModel.FK_Messages_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineChatModel.UserToType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
